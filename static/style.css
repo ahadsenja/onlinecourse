@@ -1,0 +1,100 @@
+.navbar {
+  width: 100%;
+  position: fixed;
+  overflow: hidden;
+  z-index: 1;
+}
+
+nav .navbar-nav #btn-signin {
+  background-color: #BEF1E7;
+  color: #2DC196;
+  text-decoration: none;
+  padding: 10px 30px;
+  margin-left: 20px;
+  border-radius: 50px;
+}
+
+.navbar-nav .form-control {
+  width: 300px;
+  border-radius: 10px;
+  border-color: #BEF1E7;
+}
+
+.hero {
+  padding: 150px;
+}
+
+.hero h1 {
+  padding-top: 60px;
+  padding-bottom: 10px;
+  line-height: 3.5rem;
+}
+
+.hero p {
+  padding-bottom: 30px;
+  line-height: 2rem;
+}
+
+.hero img {
+  width: 130%;
+}
+
+.hero .btn-started {
+  background-color: #2DC196;
+  color: #FFFFFF;
+  padding: 13px 40px;
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+.hero .btn-started:hover {
+  background-color: #BEF1E7;
+  color: #2DC196;
+}
+
+.hero .btn-join {
+  background-color: #6D4EFA;
+  color: #FFFFFF;
+  padding: 13px 48px;
+  border-radius: 50px;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.hero .btn-join:hover {
+  background-color: transparent;
+  border: 1px solid #6D4EFA;
+  color: #6D4EFA;
+}
+
+.popular-course h3 {
+  font-weight: 700;
+}
+
+.popular-course-content {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+.popular-course-content .popular-course-1 {
+  border: 1px solid #BEF1E7;
+  border-radius: 4px;
+  margin: 8px;
+  height: 320px;
+}
+
+.popular-course .course-title {
+  font-weight: 500;
+  padding: 20px 20px 20px 20px;
+  text-align: left;
+}
+
+.popular-course .course-description {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  padding: 30px 20px 0px 20px;
+  font-size: 15px;
+  color: #777777;
+}
