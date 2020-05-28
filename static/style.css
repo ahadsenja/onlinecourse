@@ -14,6 +14,11 @@ nav .navbar-nav #btn-signin {
   border-radius: 50px;
 }
 
+nav .navbar-nav #btn-signin:hover {
+  background-color: #2DC196;
+  color: #FFFFFF;
+}
+
 .navbar-nav .form-control {
   width: 300px;
   border-radius: 10px;
@@ -97,4 +102,60 @@ nav .navbar-nav #btn-signin {
   padding: 30px 20px 0px 20px;
   font-size: 15px;
   color: #777777;
+}
+
+.popular-course .more-catalog {
+  background-color: #2DC196;
+  color: #BEF1E7;
+  padding: 15px 50px;
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+.popular-course .more-catalog:hover {
+  background-color: transparent;
+  border: 1px solid #2DC196;
+  color: #2DC196;
+}
+
+footer {
+  margin-top: 150px;
+  background-color: #0e2f44;
+  color: #FFFFFF;
+  height: 400px;
+  padding-top: 80px;
+}
+
+footer .footer-menu {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+}
+
+footer .footer-menu a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer .footer-social-media {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+}
+
+footer .footer-social-media a {
+  padding-left: 20px;
+}
+
+footer .copyright {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+footer .copyright p {
+  font-size: 14px;
+  color: #999999;
 }
