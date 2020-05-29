@@ -123,6 +123,44 @@ nav .navbar-nav #btn-signin:hover {
   color: #2DC196;
 }
 
+.benefits {
+  margin-top: 100px;
+}
+
+.benefits-content {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+.benefits-content .benefits-title {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.benefits-content .benefits-content {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.benefits .benefits-section-title {
+  margin-top: 150px;
+}
+
+.benefits .benefits-section-title h3 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.benefits .benefits-1 {
+  border: 1px solid #2DC196;
+  border-radius: 4px;
+  margin: 10px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  padding: 20px 20px 20px 20px;
+}
+
 footer {
   margin-top: 150px;
   background-color: #0e2f44;
