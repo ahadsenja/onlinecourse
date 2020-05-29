@@ -1,3 +1,7 @@
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
 .navbar {
   width: 100%;
   position: fixed;
@@ -30,9 +34,10 @@ nav .navbar-nav #btn-signin:hover {
 }
 
 .hero h1 {
-  padding-top: 80px;
+  padding-top: 100px;
   padding-bottom: 10px;
   line-height: 3.5rem;
+  font-weight: 800;
 }
 
 .hero p {
