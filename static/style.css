@@ -181,6 +181,10 @@ footer .footer-menu a {
   font-weight: bold;
 }
 
+footer .footer-menu a:hover {
+  color: #2DC196;
+}
+
 footer .footer-social-media {
   display: flex;
   flex: 1;
@@ -193,6 +197,10 @@ footer .footer-social-media a {
   color: #FFFFFF;
   font-size: 24px;
   text-decoration: none;
+}
+
+footer .footer-social-media a:hover {
+  color: #2DC196;
 }
 
 footer .copyright {
