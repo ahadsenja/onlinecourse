@@ -161,6 +161,10 @@ nav .navbar-nav #btn-signin:hover {
   padding: 20px 20px 20px 20px;
 }
 
+.benefits .benefits-description {
+  color: #555555;
+}
+
 footer {
   margin-top: 150px;
   background-color: #0e2f44;
