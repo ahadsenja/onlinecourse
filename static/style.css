@@ -170,6 +170,10 @@ nav .navbar-nav #btn-signin:hover {
   color: #555555;
 }
 
+.other-benefits h3 {
+  padding: 70px 0px 10px 0px;
+}
+
 footer {
   margin-top: 150px;
   background-color: #0e2f44;
