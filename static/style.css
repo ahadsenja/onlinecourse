@@ -176,26 +176,35 @@ nav .navbar-nav #btn-signin:hover {
 
 .testimoni {
   margin-top: 50px;
-  background: url("/assets/pexels-photo-1438072.jpeg");
-  opacity: rgba(0, 0, 0, 0.5);
+  background-image: 
+    /* top, transparent red */
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    /* your image */
+    url(/assets/pexels-photo-1438072.jpeg);
   background-position: center;
   background-size: cover;
   color: #FFFFFF;
   padding: 80px 0px 50px;
 }
 
+.testimoni img {
+  display: flex;
+  flex: 1;
+  width: 50%;
+  border-radius: 50px 50px 50px 0px;
+}
+
 .testimoni .testimoni-name {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 600;
 }
 
 .testimoni .testimoni-position {
-  font-size: 14px;
+  font-size: 16px;
   margin-top: -15px;
 }
 
 footer {
-  margin-top: 150px;
   background-color: #0e2f44;
   color: #FFFFFF;
   height: 300px;
